@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "minio-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "op run --env-file=\"./.env\" -- node index.mjs"
+  },
+  "dependencies": {
+    "minio": "^7.1.1"
+  }
+}
